@@ -24,7 +24,22 @@
         "github.com/engsr6982/PLand": "0.20.*",
         "github.com/CoralFans-Dev/CoralFans": "26.10.*",
         "github.com/LeafKnife/Stats": "0.8.*"
-      }
+      },
+      "assets": [
+        {
+          "type": "zip",
+          "urls": [
+            "https://github.com/peak/s5cmd/releases/download/v2.3.0/s5cmd_2.3.0_Windows-64bit.zip"
+          ],
+          "placements": [
+            {
+              "type": "file",
+              "src": "s5cmd.exe",
+              "dest": "s5cmd.exe"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
