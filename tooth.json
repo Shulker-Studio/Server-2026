@@ -3,7 +3,7 @@
   "format_version": 3,
   "format_uuid": "289f771f-2c9a-4d73-9f3f-8492495a924d",
   "tooth": "github.com/Shulker-Studio/Server-2026",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "info": {
     "name": "潜小贝服务器",
     "description": "潜小贝服务器",
@@ -21,6 +21,7 @@
         "github.com/LiteLDev/LeviAntiCheat": "0.13.*",
         "github.com/LiteLDev/LeviOptimize": "0.13.*",
         "github.com/ShrBox/BackupHelper": "0.15.*",
+        "github.com/GroupMountain/GMLIB-Release": "26.10.*",
         "github.com/engsr6982/PLand": "0.20.*",
         "github.com/CoralFans-Dev/CoralFans": "26.10.*",
         "github.com/LeafKnife/Stats": "0.8.*"
