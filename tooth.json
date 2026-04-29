@@ -1,0 +1,30 @@
+{
+  "$schema": "https://raw.githubusercontent.com/futrime/lip/refs/heads/main/schemas/manifest.schema.json",
+  "format_version": 3,
+  "format_uuid": "289f771f-2c9a-4d73-9f3f-8492495a924d",
+  "tooth": "github.com/Shulker-Studio/Server-2026",
+  "version": "0.1.0",
+  "info": {
+    "name": "潜小贝服务器",
+    "description": "潜小贝服务器",
+    "tags": [],
+    "avatar_url": ""
+  },
+  "variants": [
+    {
+      "platform": "win-x64",
+      "dependencies": {
+        "github.com/LiteLDev/7-zip-tooth": "26.*",
+        "github.com/LiteLDev/LeviLamina": "26.10.*",
+        "github.com/LiteLDev/LegacyScriptEngine#quickjs": "0.18.*",
+        "github.com/LiteLDev/LegacyScriptEngine#nodejs": "0.18.*",
+        "github.com/LiteLDev/LeviAntiCheat": "0.13.*",
+        "github.com/LiteLDev/LeviOptimize": "0.13.*",
+        "github.com/ShrBox/BackupHelper": "0.15.*"
+      },
+      "assets": [
+        {}
+      ]
+    }
+  ]
+}
