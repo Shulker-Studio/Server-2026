@@ -3,7 +3,7 @@
   "format_version": 3,
   "format_uuid": "289f771f-2c9a-4d73-9f3f-8492495a924d",
   "tooth": "github.com/Shulker-Studio/Server-2026",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "info": {
     "name": "潜小贝服务器",
     "description": "潜小贝服务器",
@@ -14,17 +14,22 @@
     {
       "platform": "win-x64",
       "dependencies": {
-        "github.com/LiteLDev/7-zip-tooth": "26.*",
-        "github.com/LiteLDev/LeviLamina": "26.10.*",
-        "github.com/LiteLDev/LegacyScriptEngine#quickjs": "0.18.*",
-        "github.com/LiteLDev/LegacyScriptEngine#nodejs": "0.18.*",
-        "github.com/LiteLDev/LeviAntiCheat": "0.13.*",
-        "github.com/LiteLDev/LeviOptimize": "0.13.*",
-        "github.com/ShrBox/BackupHelper": "0.15.*",
+        "github.com/Shulker-Studio/Server-2026#base": "0.1.*"
+      }
+    },
+    {
+      "platform": "win-x64",
+      "label": "2025",
+      "dependencies": {
+        "github.com/Shulker-Studio/Server-2026#base": "0.1.*",
         "github.com/GroupMountain/GMLIB-Release": "26.10.*",
         "github.com/engsr6982/PLand": "0.20.*",
+        "github.com/engsr6982/FastMiner": "0.16.*",
         "github.com/CoralFans-Dev/CoralFans": "26.10.*",
-        "github.com/LeafKnife/Stats": "0.8.*"
+        "github.com/LeafKnife/Stats": "0.8.*",
+        "github.com/LeafKnife/ForbidPlayerSummonWither": "26.10.*",
+        "github.com/LeafKnife/ForbidExplosionBreak": "26.10.*",
+        "github.com/LeafKnife/FixBundleBug": "26.10.*"
       },
       "assets": [
         {
@@ -41,6 +46,19 @@
           ]
         }
       ]
+    },
+    {
+      "platform": "win-x64",
+      "label": "base",
+      "dependencies": {
+        "github.com/LiteLDev/7-zip-tooth": "26.*",
+        "github.com/LiteLDev/LeviLamina": "26.10.*",
+        "github.com/LiteLDev/LegacyScriptEngine#quickjs": "0.18.*",
+        "github.com/LiteLDev/LegacyScriptEngine#nodejs": "0.18.*",
+        "github.com/LiteLDev/LeviAntiCheat": "0.13.*",
+        "github.com/LiteLDev/LeviOptimize": "0.13.*",
+        "github.com/ShrBox/BackupHelper": "0.15.*"
+      }
     }
   ]
 }
